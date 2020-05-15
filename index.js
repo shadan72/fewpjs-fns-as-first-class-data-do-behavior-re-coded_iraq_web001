@@ -16,7 +16,7 @@ function greet(hm){
   const conMin=parseInt(min)
   if(conHour < 12){
     return 'Good Morning'
-  }else if(conHour <=12 && conHour >=17) {
+  }else if(conHour <=12) && (conHour >=17) {
     return 'Good Afternoon'
   }else if (conHour <17)
   return 'Good Evening'
