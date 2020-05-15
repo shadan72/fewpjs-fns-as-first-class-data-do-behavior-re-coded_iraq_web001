@@ -20,9 +20,6 @@ function greet(hm){
     return 'Good Afternoon'
   }else if (conHour >17)
   return 'Good Evening'
-  else{
-    return TEST
-  }
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(strMsg){
