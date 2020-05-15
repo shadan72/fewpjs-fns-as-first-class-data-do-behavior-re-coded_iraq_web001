@@ -24,5 +24,5 @@ function greet(hm){
 /* Write your implementation of displayMessage() */
 function displayMessage(strMsg){
  let msg= document.getElementById('greeting')
- msg.innerHTML=strMsg
+ msg.innerText=strMsg
 }
