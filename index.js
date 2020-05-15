@@ -12,10 +12,10 @@ function greet(hm){
   const con=parseInt(hm)
   const str=document.getElementById('greeting')
   if(con < 12){
-    str.innerHTML='Good Morning'
+    return 'Good Morning'
   }else if(con <=12 && con>=17) {
-    str.innerHTML='Good Afternoon'
+    return 'Good Afternoon'
   }else if (con <17)
-  str.innerHTML='Good Evening'
+  return 'Good Evening'
 }
 /* Write your implementation of displayMessage() */
