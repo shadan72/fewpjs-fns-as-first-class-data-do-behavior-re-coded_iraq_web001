@@ -9,7 +9,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(hm){
-  const 
+  const splitTime=
   const con=parseInt(hm)
   if(con < 12){
     return 'Good Morning'
