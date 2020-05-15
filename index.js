@@ -13,9 +13,9 @@ function greet(hm){
   const str=document.getElementById('greeting')
   if(con < 12){
     str.innerHTML='Good Morning'
-  }else if(con <=12 && con>=5) {
+  }else if(con <=12 && con>=17) {
     str.innerHTML='Good Afternoon'
-  }else if (con <5)
+  }else if (con <17)
   str.innerHTML='Good Evening'
 }
 /* Write your implementation of displayMessage() */
