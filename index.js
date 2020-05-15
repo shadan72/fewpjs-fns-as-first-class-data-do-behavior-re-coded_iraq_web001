@@ -23,5 +23,5 @@ function greet(hm){
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(strMsg){
-  
+  document.getElementById('greeting')
 }
