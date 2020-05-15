@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(hm){
+  const 
   const con=parseInt(hm)
-  const str=document.getElementById('greeting')
   if(con < 12){
     return 'Good Morning'
   }else if(con <=12 && con>=17) {
