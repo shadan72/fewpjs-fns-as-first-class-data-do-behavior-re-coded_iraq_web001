@@ -14,11 +14,11 @@ function greet(hm){
   const min=splitTime[1];
   const conHour=parseInt(hour)
   const conMin=parseInt(min)
-  if(con < 12){
+  if(conHour < 12){
     return 'Good Morning'
-  }else if(con <=12 && con>=17) {
+  }else if(conHour <=12 && conHour >=17) {
     return 'Good Afternoon'
-  }else if (con <17)
+  }else if (conHour <17)
   return 'Good Evening'
 }
 /* Write your implementation of displayMessage() */
